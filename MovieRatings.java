@@ -77,3 +77,17 @@ public class MovieRatings {
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
+
+
+/*
+
+Commands to push to git
+
+echo "# hadoop" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/bhattak/hadoop.git
+git push -u origin main
+*/
